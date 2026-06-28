@@ -361,7 +361,7 @@ st.markdown("""
         AI-Powered Safety Analysis
     </div>
     <h1>Detect Danger<br><span>Instantly.</span></h1>
-    <p class="hero-sub">Upload any image. Ask any question. Get contextual hazard analysis powered by multimodal AI.</p>
+    <p class="hero-sub"></p>
 </div>
 
 <div class="stats-row">
@@ -531,12 +531,5 @@ st.markdown("""
             <div class="step-desc">Specific danger identified with action steps</div>
         </div>
     </div>
-</div>
-""", unsafe_allow_html=True)
-
-
-st.markdown("""
-<div class="footer">
-    <span>HazardLens · Edxso AI Engineer Intern Assignment 2 · Built by Anshul Sharma</span>
 </div>
 """, unsafe_allow_html=True)
