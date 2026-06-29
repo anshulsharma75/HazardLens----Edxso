@@ -1,7 +1,7 @@
 # HazardLens — Multimodal AI Assistant
 ### Edxso AI Engineer Intern — Assignment 2
 
-> **Author:** Anshul Sharma  
+> **Author:** Anshul Kumar 
 > **Stack:** `Groq LLaMA 3.2 Vision` · `Streamlit` · `Pillow`
 
 ---
