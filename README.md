@@ -77,4 +77,4 @@ Set your Groq API key in the sidebar (get one free at console.groq.com).
 
 ## 🌐 Live Application
 
-🚀 (https://hazardlens.streamlit.app) ← (click to access the live demo)
+🚀 https://hazardlens.streamlit.app ← (click to access the live demo)
