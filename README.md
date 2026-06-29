@@ -72,7 +72,7 @@ Set your Groq API key in the sidebar (get one free at console.groq.com).
 
 ## 🎥 Video Walkthrough
 
- [Watch Demo Video](https://drive.google.com/file/d/1S2xMuFb-eLR0XEMwfptX-WOZ-t8MLpB2/view?usp=drivesdk)  ← (click to watch video)
+ [Watch Demo Video](https://drive.google.com/file/d/180qr-mXiKmX-KNUY2_q_AwzMjlvxzZAs/view?usp=drivesdk)  ← (click to watch video)
 
 
 
