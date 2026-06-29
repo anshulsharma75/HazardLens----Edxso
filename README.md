@@ -74,7 +74,7 @@ Set your Groq API key in the sidebar (get one free at console.groq.com).
 
 🎥 [Link to async demo video](#) ← *(add after recording)*
 
-## 🌐 Live Deployed Application
 
-🔗 Link to deployed application
+## 🌐 Live Application
 
+🚀 (https://hazardlens.streamlit.app) ← (click to access the live demo)
