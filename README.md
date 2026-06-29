@@ -73,3 +73,8 @@ Set your Groq API key in the sidebar (get one free at console.groq.com).
 ## Video Walkthrough
 
 🎥 [Link to async demo video](#) ← *(add after recording)*
+
+## 🌐 Live Deployed Application
+
+🔗 Link to deployed application
+
