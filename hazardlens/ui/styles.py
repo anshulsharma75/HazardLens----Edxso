@@ -14,7 +14,15 @@ background-size:46px 46px;-webkit-mask-image:radial-gradient(ellipse 75% 55% at 
 background:radial-gradient(600px 300px at 12% -5%,rgba(242,163,58,.10),transparent 70%),radial-gradient(500px 360px at 95% 100%,rgba(217,74,74,.06),transparent 70%);}
 [data-testid="stMain"],[data-testid="stSidebar"]{position:relative;z-index:1;}
 [data-testid="stHeader"]{background:transparent!important;}
-[data-testid="stToolbar"],[data-testid="stDecoration"],#MainMenu,footer,.stDeployButton{display:none!important;}
+[data-testid="stDecoration"],[data-testid="stAppDeployButton"],.stDeployButton,footer{display:none!important;}
+[data-testid="stToolbar"],[data-testid="stMainMenu"],[data-testid="stExpandSidebarButton"],[data-testid="stSidebarCollapsedControl"],[data-testid="stSidebarCollapseButton"]{visibility:visible!important;opacity:1!important;}
+[data-testid="stHeader"]{z-index:1000!important;}
+[data-testid="stExpandSidebarButton"],[data-testid="stSidebarCollapsedControl"]{color:var(--ac)!important;background:rgba(255,255,255,.06)!important;border:1px solid var(--bd)!important;border-radius:10px!important;}
+[data-testid="stToolbar"] button,[data-testid="stMainMenu"] button{color:var(--tx)!important;}
+[data-testid="stPageLink"] a{border:1px solid var(--bd);border-radius:12px;padding:.55rem .9rem;background:rgba(255,255,255,.03);justify-content:center;transition:all .2s;}
+[data-testid="stPageLink"] a:hover{border-color:rgba(242,163,58,.6);background:rgba(242,163,58,.08);transform:translateY(-2px);}
+[data-testid="stPageLink"] a[aria-current="page"]{border-color:rgba(242,163,58,.7);background:rgba(242,163,58,.14);}
+[data-testid="stPageLink"] p{font-weight:600;font-size:13.5px;}
 .block-container{padding:2.2rem 2.6rem 3rem!important;max-width:1320px!important;}
 h1,h2,h3,h4{font-family:'Inter',sans-serif;letter-spacing:-.02em;}
 label[data-testid="stWidgetLabel"] p{color:var(--mu)!important;font-size:12px!important;font-weight:500;}
