@@ -5,7 +5,7 @@ from hazardlens import state, views
 from hazardlens.config import DEPTH, LANGUAGES, MODELS, VERSION
 from hazardlens.ui import styles
 
-st.set_page_config(page_title="HazardLens · Visual Risk Assessment", page_icon="🛡️", layout="wide")
+st.set_page_config(page_title="HazardLens · Visual Risk Assessment", page_icon="🛡️", layout="wide", initial_sidebar_state="expanded")
 styles.inject()
 state.init()
 
@@ -16,6 +16,12 @@ pages = [
     st.Page(views.methodology, title="Methodology", icon=":material/menu_book:", url_path="methodology"),
 ]
 nav = st.navigation(pages)
+
+# Always-visible top navigation (works even if the sidebar is collapsed)
+_cols = st.columns(len(pages))
+for _col, _pg in zip(_cols, pages):
+    with _col:
+        st.page_link(_pg)
 
 with st.sidebar:
     st.divider()
